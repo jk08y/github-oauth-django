@@ -87,7 +87,6 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# Authentication Backends
 AUTHENTICATION_BACKENDS = [
     'social_core.backends.github.GithubOAuth2',
     'django.contrib.auth.backends.ModelBackend',
